@@ -11,7 +11,6 @@ public class ContactUsPage extends BasePage {
 
     String url = "http://automationpractice.com/index.php?controller=contact";
 
-
     @FindBy(how = How.XPATH, using = "//span[@class='navigation_page'][contains(text(),'Contact')]")
     public WebElement navigationContactLbl;
 
@@ -55,7 +54,6 @@ public class ContactUsPage extends BasePage {
     public ContactUsPage(WebDriver driver) {
         super(driver);
     }
-
 
     public void openContactUsPage() {
         myDriver.get(url);

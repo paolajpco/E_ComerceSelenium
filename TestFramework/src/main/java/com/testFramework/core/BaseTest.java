@@ -5,9 +5,7 @@ import org.junit.BeforeClass;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import java.io.File;
-
-public class BaseTest {
+public abstract class BaseTest {
 
     private static WebDriver driver;
 
